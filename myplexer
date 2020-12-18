@@ -1,10 +1,10 @@
 import MyPlexer
 app=MyPlexer()
-@app.route('hello')
+@app.route('/')
 def hello_world():
     return 'Hello, World!'
 
-@app.route('bye')
+@app.route('/')
 def bye():
     return 'bye'
 
